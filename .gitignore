@@ -36,3 +36,9 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# 不要なフォルダ・ファイルを除外する
+node_modules/
+.expo/
+*.log
+.DS_Store
