@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, ImageBackground } from 'react
 
 export default function HomeScreen({ navigation }) {
     return (
-        <ImageBackground source={require('../assets/wood-bg.jpg')} style={styles.bg}>
+        <ImageBackground source={require('../assets/images/wood-bg.jpg')} style={styles.bg}>
             <Text style={styles.title}>書類解析アプリ</Text>
             <Text style={styles.logo}>Summa</Text>
 
